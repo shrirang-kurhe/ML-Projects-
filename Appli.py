@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load trained model
-with open("C:\\Users\\admin\\Data Science - shrirang Sir\\Machine Learning\\Supervised Learning Projects\\Ensamble Learning\\Random Forest Project\\random_forest_regressor.pkl", "rb") as file:
+with open("random_forest_regressor.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Page title
